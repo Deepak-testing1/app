@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self';"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="login">login</h1>
+    <div id="login-form" class="form">
+      <input type="text" id="username" placeholder="Username" />
+      <input type="password" id="password" placeholder="Password" /><br />
+      <button id="login-button">Login</button>
+      <div id="customAlert" class="alert-overlay">
+        <div class="alert-box">
+          <h2 class="alert-title">Alert</h2>
+          <p class="alert-message">Message goes here</p>
+          <button id="alertOkBtn">OK</button>
+        </div>
+      </div>
+    </div>
+    <div id="exit">
+      <button id="btn1">EXIT</button>
+    </div>
+  </body>
+  <script src="renderer.js"></script>
+</html>

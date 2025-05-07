@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+#login {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+#login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#username,
+#password {
+  margin: 10px 0px;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#login-button {
+  width: 300px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.alert-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.alert-box {
+  background: white;
+  padding: 20px;
+  width: 400px;
+  height: 200px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.alert-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #e74c3c;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#alertOkBtn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  cursor: pointer;
+}
+#exit {
+  text-align: center;
+}
+#btn1 {
+  width: 300px;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  cursor: pointer;
+}
